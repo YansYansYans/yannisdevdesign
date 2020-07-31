@@ -6,9 +6,10 @@
 	<title>
 		Yannis Aitkhelifa - Développeur Web Full Stack Web Designer
 	</title>
-	
-	<meta name="description" content="Yannis Aitkhelifa : Développeur Web Full Stack Web Designer Site HTML CSS JavaScript MySql">
-	
+
+	<meta name="description"
+		content="Yannis Aitkhelifa : Développeur Web Full Stack Web Designer Site HTML CSS JavaScript MySql">
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 
@@ -49,28 +50,28 @@
 	<div class="div-menu">
 		<button class="header-mobile" onclick="openMenu()">
 			&#9776;
-		  </button>
+		</button>
 	</div>
-	  <aside class="sidebar">
+	<aside class="sidebar">
 		<button class="sidebar-close-button" onclick="closeMenu()">x</button>
 		<ul>
-		  <li>
-			<a href="index.html">Home</a>
-		  </li>
-		  <li>
-			<a href="portfolio.html">Portfolio</a>
-		  </li>
-		  <li>
-			<a href="cv.html">CV</a>
-		  </li>
-		  <li>
-			<a href="tarif.html">Tarif</a>
-		  </li>
-		  <li>
-			<a href="contact.html">Contact</a>
-		  </li>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="portfolio.html">Portfolio</a>
+			</li>
+			<li>
+				<a href="cv.html">CV</a>
+			</li>
+			<li>
+				<a href="tarif.html">Tarif</a>
+			</li>
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
 		</ul>
-	  </aside>
+	</aside>
 
 	<div class="content-width">
 		<div class="slideshow">
@@ -335,12 +336,12 @@
 		</div>
 	</div>
 
-	<div class="container-home-tarif">
+	<main class="container-tarif-tarif container-home-tarif">
 		<h1>
 			Meilleurs Offres
 		</h1>
 		<div class="container-contenu">
-			<div class="contenu-tarif t1 inline-photo show-on-scroll">
+			<div class="contenu-tarif t1 ">
 				<a href="tarif.html">
 					<img src="img/t1.png" alt="">
 					<h3>
@@ -349,9 +350,15 @@
 					<p>
 						Service Basic comprenant HTML / CSS / (SASS)
 					</p>
+					<h4>
+						200€
+					</h4>
+					<h5>
+						Commencer
+					</h5>
 				</a>
 			</div>
-			<div class="contenu-tarif t2 inline-photo show-on-scroll">
+			<div class="contenu-tarif t2 ">
 				<a href="tarif.html">
 					<img src="img/t2.png" alt="">
 					<h3>
@@ -360,19 +367,50 @@
 					<p>
 						Service JS, création de commande JavaScript
 					</p>
+					<h4>
+						300€
+					</h4>
+					<h5>
+						Commencer
+					</h5>
 				</a>
 			</div>
-			<div class="contenu-tarif t3 inline-photo show-on-scroll">
+			<div class="contenu-tarif t3 ">
 				<a href="tarif.html">
 					<img src="img/t3.png" alt="">
 					<h3>
 						MySql (SQL)
 					</h3>
 					<p>
-						Service Base de Donnée avec MySql
+						Service création de Base de Donnée avec MySql
 					</p>
+					<h4>
+						300€
+					</h4>
+					<h5>
+						Commencer
+					</h5>
 				</a>
 			</div>
+		</div>
+	</main>
+
+	<div class="lien-me">
+		<div class="me-link">
+			<a href="https://www.linkedin.com/in/yannis-aitkhelifa/">
+				<img src="img/lien-link.jpg" alt="Lien vers mon linkedin">
+				<h2>
+					Lien vers mon LinkedIn
+				</h2>
+			</a>
+		</div>
+		<div class="me-git">
+			<a href="https://github.com/YansYansYans/">
+				<img src="img/lien-git.png" alt="Lien vers mon GitHub">
+				<h2>
+					Lien vers mon GitHub
+				</h2>
+			</a>
 		</div>
 	</div>
 
@@ -552,29 +590,29 @@
 
 
 		.inline-photo {
-            opacity: 0;
-            transform: translateX(4em) rotateZ(0deg);
-            transition: transform 50s .25s cubic-bezier(0, 1, .3, 1),
-                opacity .3s .25s ease-out;
-            will-change: transform, opacity;
+			opacity: 0;
+			transform: translateX(4em) rotateZ(0deg);
+			transition: transform 50s .25s cubic-bezier(0, 1, .3, 1),
+				opacity .3s .25s ease-out;
+			will-change: transform, opacity;
 
-        }
+		}
 
-        .inline-photo.is-visible {
-            opacity: 1;
-            transform: rotateZ(0deg);
-        }
+		.inline-photo.is-visible {
+			opacity: 1;
+			transform: rotateZ(0deg);
+		}
 
-        @media all and (max-device-width: 576px) {
-            .inline-photo {
-                opacity: 0;
-                transform: translateZ(4em) rotateZ(0deg);
-                transition: transform 50s .25s cubic-bezier(0, 1, .3, 1),
-                    opacity .3s .25s ease-out;
-                will-change: transform, opacity;
+		@media all and (max-device-width: 576px) {
+			.inline-photo {
+				opacity: 0;
+				transform: translateZ(4em) rotateZ(0deg);
+				transition: transform 50s .25s cubic-bezier(0, 1, .3, 1),
+					opacity .3s .25s ease-out;
+				will-change: transform, opacity;
 
-            }
-        }
+			}
+		}
 	</style>
 	<script>
 		const header = document.querySelector('.header');
@@ -699,51 +737,52 @@
 
 
 		function openMenu() {
-      document.querySelector(".sidebar").classList.add("open");
-    }
-    function closeMenu() {
-      document.querySelector(".sidebar").classList.remove("open")
-	}
-	
+			document.querySelector(".sidebar").classList.add("open");
+		}
+
+		function closeMenu() {
+			document.querySelector(".sidebar").classList.remove("open")
+		}
 
 
 
 
 
-	var scroll = window.requestAnimationFrame ||
 
-            function (callback) {
-                window.setTimeout(callback, 1000 / 60)
-            };
-        var elementsToShow = document.querySelectorAll('.show-on-scroll');
+		var scroll = window.requestAnimationFrame ||
 
-        function loop() {
+			function (callback) {
+				window.setTimeout(callback, 1000 / 60)
+			};
+		var elementsToShow = document.querySelectorAll('.show-on-scroll');
 
-            Array.prototype.forEach.call(elementsToShow, function (element) {
-                if (isElementInViewport(element)) {
-                    element.classList.add('is-visible');
-                } else {
-                    element.classList.remove('is-visible');
-                }
-            });
+		function loop() {
 
-            scroll(loop);
-        }
+			Array.prototype.forEach.call(elementsToShow, function (element) {
+				if (isElementInViewport(element)) {
+					element.classList.add('is-visible');
+				} else {
+					element.classList.remove('is-visible');
+				}
+			});
 
-        loop();
+			scroll(loop);
+		}
 
-        function isElementInViewport(el) {
+		loop();
 
-            if (typeof jQuery === "function" && el instanceof jQuery) {
-                el = el[0];
-            }
-            var rect = el.getBoundingClientRect();
-            return (
-                (rect.top <= 0 && rect.bottom >= 0) ||
-                (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
-                    rect.top <= (window.innerHeight || document.documentElement.clientHeight)) || (rect.top >= 0 &&
-                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)));
-        }
+		function isElementInViewport(el) {
+
+			if (typeof jQuery === "function" && el instanceof jQuery) {
+				el = el[0];
+			}
+			var rect = el.getBoundingClientRect();
+			return (
+				(rect.top <= 0 && rect.bottom >= 0) ||
+				(rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+					rect.top <= (window.innerHeight || document.documentElement.clientHeight)) || (rect.top >= 0 &&
+					rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)));
+		}
 	</script>
 </body>
 

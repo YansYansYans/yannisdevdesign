@@ -52,10 +52,10 @@ header {
           text-decoration: none;
           font-family: 'josefin_sanslight';
           color: white;
+          transition: all 500ms;
         }
 
         & a:hover {
-          transition: 500ms;
           color: orangered;
         }
       }
@@ -225,56 +225,26 @@ header.active {
   ;
 }
 
-
-.container-home-tarif {
-  margin-top: 500px;
-  width: 80%;
+.lien-me {
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  font-family: 'josefin_sanslight';
   margin-left: auto;
   margin-right: auto;
-  font-family: 'josefin_sanslight';
-
-  & h1 {
-    font-family: 'josefin_sanslight';
-    text-align: center;
-    margin-bottom: 100px;
-  }
-
-  & .container-contenu {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-    & .contenu-tarif {
-      width: 300px;
-      margin-bottom: 50px;
-      background-color: white;
-
-      & a {
-        text-decoration: none;
-        color: black;
-
-        & img {
-          height: 300px;
-          border-top-left-radius: 20px;
-          border-top-right-radius: 20px;
-        }
-
-        & h3 {
-          margin-left: 10px;
-        }
-
-        & p {
-          margin-left: 10px;
-        }
-      }
-    }
-
-    & .contenu-tarif:hover {
-      box-shadow: 0px 0px 50px black;
-      border-radius: 20px;
-      transition: 500ms;
+  text-align: center;
+  flex-wrap: wrap;
+  & a {
+    color: white;
+    & img {
+      width: 10em;
     }
   }
+}
+
+.container-home-tarif {
+  padding-top: 200px;
 }
 .container-tarif-tarif {
   margin-top: 250px;
@@ -300,7 +270,6 @@ header.active {
       width: 300px;
       margin-bottom: 50px;
       background-color: white;
-
       & a {
         text-decoration: none;
         color: black;
@@ -328,13 +297,14 @@ header.active {
           padding: 10px;
           background-color: orangered;
           margin: auto;
+          transition: 500ms;
         }
       }
     }
 
-    & .contenu-tarif:hover {
-      border-radius: 20px;
-      transition: 500ms;
+    & .contenu-tarif:hover h5 {
+      background-color: #22222A;
+      color: #fff;
     }
   }
 }
@@ -356,6 +326,7 @@ header.active {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    transition: all 450ms;
 
     & .contenu-tarif {
       width: 300px;
@@ -389,13 +360,14 @@ header.active {
           padding: 10px;
           background-color: orangered;
           margin: auto;
+          transition: 500ms;
         }
       }
     }
 
-    & .contenu-tarif:hover {
-      border-radius: 20px;
-      transition: 500ms;
+    & .contenu-tarif:hover h5 {
+      background-color: #22222A;
+      color: #fff;
     }
   }
 }
@@ -413,7 +385,7 @@ header.active {
   flex-wrap: wrap-reverse;
 
   & img {
-    width: 70%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
   }
@@ -440,17 +412,17 @@ footer {
   padding: 100px;
   font-family: 'josefin_sanslight';
   flex-wrap: wrap;
-
+  
   & .contact-left {
     & .contact-left-top {
       & a {
         color: white;
         text-decoration: none;
+        transition: all 500ms;
       }
 
       & a:hover {
         color: orangered;
-        transition: 500ms;
       }
     }
 
@@ -462,11 +434,11 @@ footer {
           font-size: 2em;
           margin-right: 20px;
           color: white;
+          transition: all 500ms;
         }
 
         & i:hover {
           color: orangered;
-          transition: 500ms;
         }
       }
     }
@@ -475,7 +447,7 @@ footer {
 
 
 .container-porfolio {
-  margin-top: 250px;
+  margin-top: 400px;
   font-family: 'josefin_sanslight';
 
   & h1 {
@@ -517,10 +489,11 @@ footer {
       width: 10em;
       display: block;
       margin: auto;
+      transition: all 1000ms;
     }
     & .img-pp:hover {
       border-radius: 0%;
-      transition: 1000ms;
+      
     }
     & h1 {
       color: white;
@@ -599,11 +572,11 @@ footer {
     background-color: white;
     padding: 10px;
     border-radius: 20px;
+    transition: all 500ms;
   }
   & h2:hover {
     background-color: orangered;
     border-radius: 0px;
-    transition: 500ms;
     color: white;
   }
   & .img-drap {
@@ -874,22 +847,16 @@ footer {
 
 
   .container-porfolio {
-    margin-top: 250px;
-    font-family: 'josefin_sanslight';
+    margin-top: 200px;
   
     & h1 {
-      color: white;
-      text-align: center;
-      font-size: 3em;
+      font-size: 2.5em;
     }
   
     & .container-porfolio-line {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
   
       & .porfolio-line-block {
-        margin-top: 200px;
+        margin-top: 100px;
       }
   
       & a {
@@ -1010,6 +977,12 @@ footer {
         text-align: center;
         margin-top: 100px;
       }
+    }
+  }
+  .lien-me {
+    margin-top: 100px;
+    & .me-link {
+      margin-bottom: 50px;
     }
   }
 }
