@@ -7,7 +7,8 @@
 		Yannis Aitkhelifa - Contact
 	</title>
 
-	<meta name="description" content="Yannis Aitkhelifa : Développeur Web Full Stack Web Designer Site HTML CSS JavaScript MySql">
+	<meta name="description"
+		content="Yannis Aitkhelifa : Développeur Web Full Stack Web Designer Site HTML CSS JavaScript MySql">
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
@@ -79,7 +80,10 @@
 		<div class="contact-contenu">
 			<div class="contact-left">
 				<form action="https://formspree.io/xbjzqove" method="POST">
-					<input type="text" name="name" placeholder="NOM" required>
+					<div class="form__group field">
+						<input class="form__field" type="text" name="name" placeholder="Nom" required>
+						<label for="name" class="form__label">Name</label>
+					</div>
 					<select name="Service" required>
 						<option value="" selected="true" disabled>--Choisir un Service--</option>
 						<optgroup label="Service Basic">
@@ -110,11 +114,21 @@
 						<option value="Personnelle">Personnelle</option>
 						<option value="Autre">Autre</option>
 					</select>
-					<input type="email" required name="_replyto" placeholder="EMAIL">
-					<input type="tel" name="tel" placeholder="TELEPHONE (optionel)">
-					<input class="com" row="5" type="text" placeholder="Commentaire" name="comment">
-					<input type="checkbox" name="condition" class="input-box" required><label for="condition">J'accepte les <a
-							href="mention.html">condition d'utilisation</a></label>
+					<div class="form__group field">
+						<input class="form__field" type="email" required name="_replyto" placeholder="EMAIL">
+						<label for="email" class="form__label">Email</label>
+					</div>
+					<div class="form__group field">
+						<input class="form__field" type="tel" name="tel" placeholder="TELEPHONE (optionel)">
+						<label for="tel" class="form__label">Téléphone</label>
+					</div>
+					<div class="form__group field">
+						<input class="form__field" class="com" row="5" type="text" placeholder="Commentaire"
+							name="comment">
+						<label for="com" class="form__label">Message</label>
+					</div>
+					<input type="checkbox" name="condition" class="input-box" required><label for="condition">J'accepte
+						les <a href="mention.html">condition d'utilisation</a></label>
 					<input type="submit" class="send" value="Envoyer">
 				</form>
 			</div>

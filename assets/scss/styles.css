@@ -707,14 +707,103 @@ footer .contact-left .contact-left-bottom a i:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  /* reset input */
+}
+
+.container-contact .contact-contenu .contact-left form .form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+  z-index: 100000;
+}
+
+.container-contact .contact-contenu .contact-left form .form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #ffffff;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+  z-index: 100000;
+}
+
+.container-contact .contact-contenu .contact-left form .form__field::-webkit-input-placeholder {
+  color: transparent;
+  z-index: 100000;
+}
+
+.container-contact .contact-contenu .contact-left form .form__field:-ms-input-placeholder {
+  color: transparent;
+  z-index: 100000;
+}
+
+.container-contact .contact-contenu .contact-left form .form__field::-ms-input-placeholder {
+  color: transparent;
+  z-index: 100000;
+}
+
+.container-contact .contact-contenu .contact-left form .form__field::placeholder {
+  color: transparent;
+  z-index: 100000;
+}
+
+.container-contact .contact-contenu .contact-left form .form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+  z-index: 100000;
+}
+
+.container-contact .contact-contenu .contact-left form .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #ffffff;
+  z-index: 100000;
+}
+
+.container-contact .contact-contenu .contact-left form .form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  -o-border-image: linear-gradient(to right, #ffffff, #ffffff);
+     border-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ffffff));
+     border-image: linear-gradient(to right, #ffffff, #ffffff);
+  border-image-slice: 1;
+  z-index: 100000;
+}
+
+.container-contact .contact-contenu .contact-left form .form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: orangered;
+  font-weight: 700;
+  z-index: 100000;
+}
+
+.container-contact .contact-contenu .contact-left form .form__field:required, .container-contact .contact-contenu .contact-left form .form__field:invalid {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  z-index: 100000;
 }
 
 .container-contact .contact-contenu .contact-left form input {
   width: 300px;
   font-size: 1.5em;
   margin: 20px;
-  border-radius: 5px;
-  border: none;
 }
 
 .container-contact .contact-contenu .contact-left form .com {
@@ -722,10 +811,26 @@ footer .contact-left .contact-left-bottom a i:hover {
 }
 
 .container-contact .contact-contenu .contact-left form select {
-  width: 300px;
+  width: 400px;
   font-size: 1.5em;
   margin: 20px;
   cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+}
+
+.container-contact .contact-contenu .contact-left form optgroup {
+  color: black;
+}
+
+.container-contact .contact-contenu .contact-left form option {
+  color: black;
+  cursor: pointer;
+}
+
+.container-contact .contact-contenu .contact-left form option:hover {
+  background-color: orangered;
 }
 
 .container-contact .contact-contenu .contact-left form label {
@@ -748,12 +853,15 @@ footer .contact-left .contact-left-bottom a i:hover {
   cursor: pointer;
   background-color: orangered;
   margin-top: 50px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border: none;
+  padding: 10px;
+  width: 200px;
 }
 
 .container-contact .contact-contenu .contact-left form .send:hover {
   background-color: white;
-  -webkit-transition: 500ms;
-  transition: 500ms;
 }
 
 .container-contact .contact-contenu .contact-right {
@@ -1000,6 +1108,10 @@ footer .contact-left .contact-left-bottom a i:hover {
   .container-contact .contact-contenu .contact-left {
     width: 100%;
   }
+  .container-contact .contact-contenu .contact-left form .form__group {
+    margin-top: 50px;
+    width: 100%;
+  }
   .container-contact .contact-contenu .contact-left form input {
     width: 100%;
     font-size: 1.2em;
@@ -1013,7 +1125,8 @@ footer .contact-left .contact-left-bottom a i:hover {
     width: 100%;
     font-size: 1.2em;
     margin: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 50px;
   }
   .container-contact .contact-contenu .contact-left form .send {
     width: 100px;
