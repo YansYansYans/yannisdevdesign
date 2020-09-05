@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/yannisdevdesign/static/css/main.7dd7563b.chunk.css",
-    "main.js": "/yannisdevdesign/static/js/main.2f1fa91a.chunk.js",
-    "main.js.map": "/yannisdevdesign/static/js/main.2f1fa91a.chunk.js.map",
-    "runtime-main.js": "/yannisdevdesign/static/js/runtime-main.4505c1da.js",
-    "runtime-main.js.map": "/yannisdevdesign/static/js/runtime-main.4505c1da.js.map",
-    "static/js/2.b552de11.chunk.js": "/yannisdevdesign/static/js/2.b552de11.chunk.js",
-    "static/js/2.b552de11.chunk.js.map": "/yannisdevdesign/static/js/2.b552de11.chunk.js.map",
+    "main.js": "/yannisdevdesign/static/js/main.6a5c92fa.chunk.js",
+    "main.js.map": "/yannisdevdesign/static/js/main.6a5c92fa.chunk.js.map",
+    "runtime-main.js": "/yannisdevdesign/static/js/runtime-main.0436b839.js",
+    "runtime-main.js.map": "/yannisdevdesign/static/js/runtime-main.0436b839.js.map",
+    "static/js/2.2367fbed.chunk.js": "/yannisdevdesign/static/js/2.2367fbed.chunk.js",
+    "static/js/2.2367fbed.chunk.js.map": "/yannisdevdesign/static/js/2.2367fbed.chunk.js.map",
     "static/css/3.c7b31c95.chunk.css": "/yannisdevdesign/static/css/3.c7b31c95.chunk.css",
-    "static/js/3.954f2a02.chunk.js": "/yannisdevdesign/static/js/3.954f2a02.chunk.js",
-    "static/js/3.954f2a02.chunk.js.map": "/yannisdevdesign/static/js/3.954f2a02.chunk.js.map",
+    "static/js/3.9df88752.chunk.js": "/yannisdevdesign/static/js/3.9df88752.chunk.js",
+    "static/js/3.9df88752.chunk.js.map": "/yannisdevdesign/static/js/3.9df88752.chunk.js.map",
     "static/css/4.54df59d4.chunk.css": "/yannisdevdesign/static/css/4.54df59d4.chunk.css",
-    "static/js/4.fea361ef.chunk.js": "/yannisdevdesign/static/js/4.fea361ef.chunk.js",
-    "static/js/4.fea361ef.chunk.js.map": "/yannisdevdesign/static/js/4.fea361ef.chunk.js.map",
+    "static/js/4.0a78d95b.chunk.js": "/yannisdevdesign/static/js/4.0a78d95b.chunk.js",
+    "static/js/4.0a78d95b.chunk.js.map": "/yannisdevdesign/static/js/4.0a78d95b.chunk.js.map",
     "index.html": "/yannisdevdesign/index.html",
-    "precache-manifest.366ce56b7900e964099e42c281f358c5.js": "/yannisdevdesign/precache-manifest.366ce56b7900e964099e42c281f358c5.js",
+    "precache-manifest.e282e4b6de8519d5bcc5f66a49fb3ca1.js": "/yannisdevdesign/precache-manifest.e282e4b6de8519d5bcc5f66a49fb3ca1.js",
     "service-worker.js": "/yannisdevdesign/service-worker.js",
     "static/css/3.c7b31c95.chunk.css.map": "/yannisdevdesign/static/css/3.c7b31c95.chunk.css.map",
     "static/css/4.54df59d4.chunk.css.map": "/yannisdevdesign/static/css/4.54df59d4.chunk.css.map",
@@ -38,9 +38,9 @@
     "static/media/skill.svg": "/yannisdevdesign/static/media/skill.34409398.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4505c1da.js",
-    "static/js/2.b552de11.chunk.js",
+    "static/js/runtime-main.0436b839.js",
+    "static/js/2.2367fbed.chunk.js",
     "static/css/main.7dd7563b.chunk.css",
-    "static/js/main.2f1fa91a.chunk.js"
+    "static/js/main.6a5c92fa.chunk.js"
   ]
 }
