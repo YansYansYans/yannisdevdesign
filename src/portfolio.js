@@ -18,7 +18,7 @@ const socialMediaLinks = {
 
   github: "https://github.com/YansYansYans",
   linkedin: "https://www.linkedin.com/in/yannis-ait-khelifa-1648331ab/",
-  gmail: "yan95100@gmail.com",
+  gmail: "yannis.aitkhelifa@gmail.com",
   instagram: "https://www.instagram.com/_yans_yans/?hl=fr",
 };
 
@@ -140,7 +140,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "YansYansYans", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "yansyansyans", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -262,7 +262,7 @@ const contactInfo = {
   title: emoji("Me contacter ☎️"),
   subtitle: "Vous êtes intéréssé par mes services; vous voulez un site internet, contactez moi !",
   number: "0770453527",
-  email_address: "yan95100@gmail.com"
+  email_address: "yannis.aitkhelifa@gmail.com"
 };
 
 //Twitter Section
