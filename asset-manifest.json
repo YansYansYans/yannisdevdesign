@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/yannisdevdesign/static/css/main.7dd7563b.chunk.css",
+    "main.css": "/yannisdevdesign/static/css/main.ac99c762.chunk.css",
     "main.js": "/yannisdevdesign/static/js/main.6a5c92fa.chunk.js",
     "main.js.map": "/yannisdevdesign/static/js/main.6a5c92fa.chunk.js.map",
     "runtime-main.js": "/yannisdevdesign/static/js/runtime-main.0436b839.js",
@@ -14,11 +14,11 @@
     "static/js/4.0a78d95b.chunk.js": "/yannisdevdesign/static/js/4.0a78d95b.chunk.js",
     "static/js/4.0a78d95b.chunk.js.map": "/yannisdevdesign/static/js/4.0a78d95b.chunk.js.map",
     "index.html": "/yannisdevdesign/index.html",
-    "precache-manifest.e282e4b6de8519d5bcc5f66a49fb3ca1.js": "/yannisdevdesign/precache-manifest.e282e4b6de8519d5bcc5f66a49fb3ca1.js",
+    "precache-manifest.005d860ae384327f2bfbcfc5950ef28e.js": "/yannisdevdesign/precache-manifest.005d860ae384327f2bfbcfc5950ef28e.js",
     "service-worker.js": "/yannisdevdesign/service-worker.js",
     "static/css/3.c7b31c95.chunk.css.map": "/yannisdevdesign/static/css/3.c7b31c95.chunk.css.map",
     "static/css/4.54df59d4.chunk.css.map": "/yannisdevdesign/static/css/4.54df59d4.chunk.css.map",
-    "static/css/main.7dd7563b.chunk.css.map": "/yannisdevdesign/static/css/main.7dd7563b.chunk.css.map",
+    "static/css/main.ac99c762.chunk.css.map": "/yannisdevdesign/static/css/main.ac99c762.chunk.css.map",
     "static/media/index.css": "/yannisdevdesign/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/com.png": "/yannisdevdesign/static/media/com.7d3449ab.png",
     "static/media/contactMail.webp": "/yannisdevdesign/static/media/contactMail.e489b3fe.webp",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.0436b839.js",
     "static/js/2.2367fbed.chunk.js",
-    "static/css/main.7dd7563b.chunk.css",
+    "static/css/main.ac99c762.chunk.css",
     "static/js/main.6a5c92fa.chunk.js"
   ]
 }
