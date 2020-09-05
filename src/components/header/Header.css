@@ -30,6 +30,7 @@
 .header .menu-btn:hover {
   background-color: #0c5cb8;
   opacity: 50%;
+  color: white;
 }
 
 .header .logo {
