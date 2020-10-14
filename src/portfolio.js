@@ -25,7 +25,7 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "Qu'est-ce que je fais",
+  title: "Ce que je sais faire",
   subTitle: "Développeur Web / Web Designer",
   skills: [
     emoji("⚡ Développement de Front end interactif et épuré"),
@@ -88,11 +88,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "75%"  //Insert relative proficiency in percentage
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend/Programming",
-      progressPercentage: "50%"
+      progressPercentage: "70%"
     },
     {
       Stack: "BDD/CMS",
@@ -108,11 +108,22 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Développeur Full Stack Freelance",  
+      company: "Freelance",
+      companylogo: require("./assets/images/me.png"),
+      date: "Juillet 2020 - Aujourd'hui",
+      desc: "Je me suis lancer en tant que développeur auto-entrepreneur et j'ai pu réaliser des projets pour des clients.",
+      descBullets: [
+        "Création de site de réservation de billet",
+        "Utilisation de REACT JS"
+      ]
+    },
+    {
       role: "Web Designer",  
       company: "Ringover",
       companylogo: require("./assets/images/ringover.png"),
       date: "Juin 2020",
-      desc: "Sur une durée de 3 jours, la StartUp RINGOVER m'a demandé (sous forme de test) de faire une refonte de leur page d'accueil.",
+      desc: "La StartUp RINGOVER m'a demandé (sous forme de test) de faire une refonte de leur page d'accueil.",
       descBullets: [
         "Utilisation de SASS",
         "Cohérance et Epuration des contenus"
@@ -124,13 +135,6 @@ const workExperiences = {
       companylogo: require("./assets/images/itiremia.png"),
       date: "Octobre 2019 – Mars 2020",
       desc: "Durant 5 mois, j'ai exercé le métier de Régulateur de Flux dans une gare SNCF par le prestataire ITIREMIA. Ce CDD m'a permis d'acquérir certaines compétences comme la gestion ou la communication directe."
-    },
-    {
-      role: "Téléprospecteur",  
-      company: "COM & GO",
-      companylogo: require("./assets/images/com.png"),
-      date: "Septembre 2019 - Octobre 2019",
-      desc: "Pendant une semaine, dans différents lieux du Val d'Oise, j'ai distribué des prospectus pour un Salon Etudiant des Grandes Ecoles. C'est le prestataire COM AND GO qui m'a supervisé pour cette mission."
     },
   ]
 };
@@ -149,22 +153,22 @@ const openSource = {
 
 const bigProjects = {
   title: "Mes Gros Projets",
-  subtitle: "Projets impliquants React ou VueJS",
+  subtitle: "Projets impliquants React et Sql",
   projects: [
     {
-      image: require("./assets/images/logo-white.png"),
-      
+      image: require("./assets/images/alter.png"),
+      link: "#"
     },
     {
-      image: require("./assets/images/icon.png"),
-      link: "https://github.com/YansYansYans/ProjetGroupomania"
+      image: require("./assets/images/event.png"),
+      link: "#"
     }
   ]
 };
 
 const bigProjects2 = {
   title: "Mes autres projets",
-  subtitle: "Projets personnels développés lors de formation.",
+  subtitle: "Projets pour client ou personnels développés lors de formation.",
   projects: [
     {
       image: require("./assets/images/deviceoh.png"),
