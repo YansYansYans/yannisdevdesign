@@ -148,7 +148,6 @@ const openSource = {
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
-
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
