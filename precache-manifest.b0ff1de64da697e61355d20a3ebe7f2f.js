@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c221adc95c7872f18f011035bca03360",
+    "revision": "c1f4a1aa50ead1836c747db47f75b506",
     "url": "/yannisdevdesign/index.html"
   },
   {
-    "revision": "0fbd5990eed713189a14",
+    "revision": "668ac9991faff8318de4",
     "url": "/yannisdevdesign/static/css/3.c7b31c95.chunk.css"
   },
   {
-    "revision": "2f53f31d369432916bdd",
+    "revision": "5ef05966be3673f9f549",
     "url": "/yannisdevdesign/static/css/4.54df59d4.chunk.css"
   },
   {
-    "revision": "e835aa2291fcfba57b85",
-    "url": "/yannisdevdesign/static/css/main.7dd7563b.chunk.css"
+    "revision": "b965c22406b229cfa1a7",
+    "url": "/yannisdevdesign/static/css/main.ac99c762.chunk.css"
   },
   {
-    "revision": "972a46827d5656a8edd3",
-    "url": "/yannisdevdesign/static/js/2.b552de11.chunk.js"
+    "revision": "55b533924d8b39877fe3",
+    "url": "/yannisdevdesign/static/js/2.2367fbed.chunk.js"
   },
   {
-    "revision": "0fbd5990eed713189a14",
-    "url": "/yannisdevdesign/static/js/3.954f2a02.chunk.js"
+    "revision": "668ac9991faff8318de4",
+    "url": "/yannisdevdesign/static/js/3.9df88752.chunk.js"
   },
   {
-    "revision": "2f53f31d369432916bdd",
-    "url": "/yannisdevdesign/static/js/4.fea361ef.chunk.js"
+    "revision": "5ef05966be3673f9f549",
+    "url": "/yannisdevdesign/static/js/4.0a78d95b.chunk.js"
   },
   {
-    "revision": "e835aa2291fcfba57b85",
-    "url": "/yannisdevdesign/static/js/main.2f1fa91a.chunk.js"
+    "revision": "b965c22406b229cfa1a7",
+    "url": "/yannisdevdesign/static/js/main.0d4c74b6.chunk.js"
   },
   {
-    "revision": "e92d55bac580c6b8d3d4",
-    "url": "/yannisdevdesign/static/js/runtime-main.4505c1da.js"
+    "revision": "bdae6c99a97aebf1078f",
+    "url": "/yannisdevdesign/static/js/runtime-main.0436b839.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/yannisdevdesign/static/media/Montserrat-Regular.ee653992.ttf"
-  },
-  {
-    "revision": "7d3449ab97e937b4e910e8a3688a4c94",
-    "url": "/yannisdevdesign/static/media/com.7d3449ab.png"
   },
   {
     "revision": "e489b3fe3ada01eced7771bef07bb1da",
@@ -98,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53bc8ae66b6d570a115756b0ce0fab3e",
     "url": "/yannisdevdesign/static/media/manOnTable.53bc8ae6.svg"
+  },
+  {
+    "revision": "aaa3e534c0d6c045ab32043caa6ba433",
+    "url": "/yannisdevdesign/static/media/me.aaa3e534.png"
   },
   {
     "revision": "8cfa85674a8f9c9413710c9b82c7b014",
