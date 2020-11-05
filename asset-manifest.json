@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/yannisdevdesign/static/css/main.ac99c762.chunk.css",
-    "main.js": "/yannisdevdesign/static/js/main.0d4c74b6.chunk.js",
-    "main.js.map": "/yannisdevdesign/static/js/main.0d4c74b6.chunk.js.map",
+    "main.css": "/yannisdevdesign/static/css/main.d62dac87.chunk.css",
+    "main.js": "/yannisdevdesign/static/js/main.8ccddef4.chunk.js",
+    "main.js.map": "/yannisdevdesign/static/js/main.8ccddef4.chunk.js.map",
     "runtime-main.js": "/yannisdevdesign/static/js/runtime-main.0436b839.js",
     "runtime-main.js.map": "/yannisdevdesign/static/js/runtime-main.0436b839.js.map",
     "static/js/2.2367fbed.chunk.js": "/yannisdevdesign/static/js/2.2367fbed.chunk.js",
@@ -14,14 +14,14 @@
     "static/js/4.0a78d95b.chunk.js": "/yannisdevdesign/static/js/4.0a78d95b.chunk.js",
     "static/js/4.0a78d95b.chunk.js.map": "/yannisdevdesign/static/js/4.0a78d95b.chunk.js.map",
     "index.html": "/yannisdevdesign/index.html",
-    "precache-manifest.b0ff1de64da697e61355d20a3ebe7f2f.js": "/yannisdevdesign/precache-manifest.b0ff1de64da697e61355d20a3ebe7f2f.js",
+    "precache-manifest.f5f8796d1aaabf3bb41e8caff578e785.js": "/yannisdevdesign/precache-manifest.f5f8796d1aaabf3bb41e8caff578e785.js",
     "service-worker.js": "/yannisdevdesign/service-worker.js",
     "static/css/3.c7b31c95.chunk.css.map": "/yannisdevdesign/static/css/3.c7b31c95.chunk.css.map",
     "static/css/4.54df59d4.chunk.css.map": "/yannisdevdesign/static/css/4.54df59d4.chunk.css.map",
-    "static/css/main.ac99c762.chunk.css.map": "/yannisdevdesign/static/css/main.ac99c762.chunk.css.map",
+    "static/css/main.d62dac87.chunk.css.map": "/yannisdevdesign/static/css/main.d62dac87.chunk.css.map",
     "static/media/index.css": "/yannisdevdesign/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/contactMail.webp": "/yannisdevdesign/static/media/contactMail.e489b3fe.webp",
-    "static/media/developerActivity.svg": "/yannisdevdesign/static/media/developerActivity.c0abe41a.svg",
+    "static/media/contactMail.webp": "/yannisdevdesign/static/media/contactMail.304c46f5.webp",
+    "static/media/developerActivity.svg": "/yannisdevdesign/static/media/developerActivity.65ca787d.svg",
     "static/media/devicegro.png": "/yannisdevdesign/static/media/devicegro.6a6bbe0f.png",
     "static/media/deviceoh.png": "/yannisdevdesign/static/media/deviceoh.7e54f662.png",
     "static/media/deviceri.png": "/yannisdevdesign/static/media/deviceri.9c7c2567.png",
@@ -32,15 +32,15 @@
     "static/media/img4.jpg": "/yannisdevdesign/static/media/img4.08581b7e.jpg",
     "static/media/img5.jpg": "/yannisdevdesign/static/media/img5.9a86d669.jpg",
     "static/media/img6.jpg": "/yannisdevdesign/static/media/img6.f31aa2b9.jpg",
-    "static/media/manOnTable.svg": "/yannisdevdesign/static/media/manOnTable.53bc8ae6.svg",
+    "static/media/manOnTable.svg": "/yannisdevdesign/static/media/manOnTable.bf5e5db9.svg",
     "static/media/me.png": "/yannisdevdesign/static/media/me.aaa3e534.png",
     "static/media/men.png": "/yannisdevdesign/static/media/men.8cfa8567.png",
-    "static/media/skill.svg": "/yannisdevdesign/static/media/skill.34409398.svg"
+    "static/media/skill.png": "/yannisdevdesign/static/media/skill.1a73308b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0436b839.js",
     "static/js/2.2367fbed.chunk.js",
-    "static/css/main.ac99c762.chunk.css",
-    "static/js/main.0d4c74b6.chunk.js"
+    "static/css/main.d62dac87.chunk.css",
+    "static/js/main.8ccddef4.chunk.js"
   ]
 }

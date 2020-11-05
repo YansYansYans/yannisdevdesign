@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1f4a1aa50ead1836c747db47f75b506",
+    "revision": "f7d7cec7b872ca5151b3797034dd7399",
     "url": "/yannisdevdesign/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yannisdevdesign/static/css/4.54df59d4.chunk.css"
   },
   {
-    "revision": "b965c22406b229cfa1a7",
-    "url": "/yannisdevdesign/static/css/main.ac99c762.chunk.css"
+    "revision": "dcdbbb96ecb3befa3103",
+    "url": "/yannisdevdesign/static/css/main.d62dac87.chunk.css"
   },
   {
     "revision": "55b533924d8b39877fe3",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yannisdevdesign/static/js/4.0a78d95b.chunk.js"
   },
   {
-    "revision": "b965c22406b229cfa1a7",
-    "url": "/yannisdevdesign/static/js/main.0d4c74b6.chunk.js"
+    "revision": "dcdbbb96ecb3befa3103",
+    "url": "/yannisdevdesign/static/js/main.8ccddef4.chunk.js"
   },
   {
     "revision": "bdae6c99a97aebf1078f",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yannisdevdesign/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "e489b3fe3ada01eced7771bef07bb1da",
-    "url": "/yannisdevdesign/static/media/contactMail.e489b3fe.webp"
+    "revision": "304c46f518dca4f90fee216f9b45e2e3",
+    "url": "/yannisdevdesign/static/media/contactMail.304c46f5.webp"
   },
   {
-    "revision": "c0abe41afcd4025687f4e595b4fcb054",
-    "url": "/yannisdevdesign/static/media/developerActivity.c0abe41a.svg"
+    "revision": "65ca787d350dde7c16d2078de392bb62",
+    "url": "/yannisdevdesign/static/media/developerActivity.65ca787d.svg"
   },
   {
     "revision": "6a6bbe0f8304835d828f29f696c8c578",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yannisdevdesign/static/media/img6.f31aa2b9.jpg"
   },
   {
-    "revision": "53bc8ae66b6d570a115756b0ce0fab3e",
-    "url": "/yannisdevdesign/static/media/manOnTable.53bc8ae6.svg"
+    "revision": "bf5e5db99c48346e98539215c1442f69",
+    "url": "/yannisdevdesign/static/media/manOnTable.bf5e5db9.svg"
   },
   {
     "revision": "aaa3e534c0d6c045ab32043caa6ba433",
@@ -104,7 +104,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yannisdevdesign/static/media/men.8cfa8567.png"
   },
   {
-    "revision": "3440939881da8339d1597e8d77cdf850",
-    "url": "/yannisdevdesign/static/media/skill.34409398.svg"
+    "revision": "1a73308b7a14fe865699b686d8c1703c",
+    "url": "/yannisdevdesign/static/media/skill.1a73308b.png"
   }
 ]);
