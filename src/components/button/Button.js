@@ -6,7 +6,7 @@ export default function Button({ text, className, href, newTab }) {
   return (
     <div className={className}>
       <a class="main-button" href={href} target={newTab && "_blank"}>
-      <Buttons variant="contained" color="primary" style={{ backgroundColor: '#1565C0' }}>
+      <Buttons variant="contained" color="primary" style={{ backgroundColor: '#e9343f' }}>
         {text}
         </Buttons>
       </a>

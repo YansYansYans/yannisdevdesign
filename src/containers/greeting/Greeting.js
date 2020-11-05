@@ -75,13 +75,13 @@ export default function Greeting() {
             <SocialMedia />
             <div className="button-greeting-div">
               <Button text="CONTACT" href="#contact" />
-              <Button2 variant="contained" color="primary" style={{ backgroundColor: '#1565C0', height: '36px', width: '100px', marginTop: '20px', marginLeft: '5px' }} onClick={handleClickOpen} text="TARIFS">
+              <Button2 variant="contained" color="primary" style={{ backgroundColor: '#e9343f', height: '36px', width: '100px', marginTop: '20px', marginLeft: '5px' }} onClick={handleClickOpen} text="TARIFS">
                 Tarif
               </Button2>
 
               <Dialog fullScreen open={open} onClose={handleClose} TransitionComponent={Transition}>
                 <AppBar className={classes.appBar}>
-                  <Toolbar style={{ backgroundColor: '#1565C0' }}>
+                  <Toolbar style={{ backgroundColor: '#e9343f' }}>
                     <IconButton edge="start" color="inherit" onClick={handleClose} aria-label="close">
                       <CloseIcon />
                     </IconButton>

@@ -46,7 +46,7 @@ text-align: center;
     justify-content: center;
 }
 .certificate-card-footer span.certificate-tag {
-    background: #55198b;
+    background: #e9343f;
     color: #f5f2f4;
     vertical-align: middle;
     align-items: center;
@@ -63,5 +63,5 @@ text-align: center;
     transition: 0.20s ease-in;
 }
 span.certificate-tag:hover {
-    background: #8c43ce;
+    opacity: 80%;
 }
