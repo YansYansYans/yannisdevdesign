@@ -8,7 +8,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Yannis Aitkhelifa",
-  subTitle: emoji("Développeur Full Stack auto-entrepreneur, je maitrise à la fois le design et la programmation web."),
+  subTitle: emoji("Développeur Full Stack auto-entrepreneur, je maitrise à la fois le design et la programmation web. Je vous propose mes services pour toute création de site web, vitrine, boutique, CMS etc. Je serais ravie de collaborer avec vous..."),
   resumeLink: "#"
 };
 
@@ -54,6 +54,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
@@ -62,20 +66,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "WordPress",
       fontAwesomeClassname: "fab fa-wordpress"
     },
     {
-      skillName: "Angular",
-      fontAwesomeClassname: "fab fa-angular"
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "Wix",
+      fontAwesomeClassname: "fab fa-wix"
+    },
+    {
+      skillName: "Shopify",
+      fontAwesomeClassname: "fab fa-shopify"
     },
 
   ]
@@ -88,7 +96,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "80%"  //Insert relative proficiency in percentage
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend/Programming",
@@ -119,6 +127,13 @@ const workExperiences = {
       ]
     },
     {
+      role: "Formateur Freelance",   
+      company: "Freelance",
+      companylogo: require("./assets/images/wix.jpg"),
+      date: "Novembre 2020",
+      desc: "Durant 1 semaine, j'ai pu former un client à la création d'une boutique en ligne Wix."
+    },
+    {
       role: "Web Designer",  
       company: "Ringover",
       companylogo: require("./assets/images/ringover.png"),
@@ -128,13 +143,6 @@ const workExperiences = {
         "Utilisation de SASS",
         "Cohérance et Epuration des contenus"
       ]
-    },
-    {
-      role: "Régulateur de Flux",   
-      company: "Itiremia",
-      companylogo: require("./assets/images/itiremia.png"),
-      date: "Octobre 2019 – Mars 2020",
-      desc: "Durant 5 mois, j'ai exercé le métier de Régulateur de Flux dans une gare SNCF par le prestataire ITIREMIA. Ce CDD m'a permis d'acquérir certaines compétences comme la gestion ou la communication directe."
     },
   ]
 };
@@ -151,42 +159,29 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Mes Gros Projets",
-  subtitle: "Projets impliquants React et Sql",
+  title: "Mes Projets",
+  subtitle: "Projets pour client ou mission",
   projects: [
     {
-      image: require("./assets/images/alter.png"),
-      link: "#"
+      image: require("./assets/images/dalil.png"),
+      link: "https://dalilimmo.com/"
     },
     {
-      image: require("./assets/images/event.png"),
-      link: "#"
-    }
-  ]
-};
-
-const bigProjects2 = {
-  title: "Mes autres projets",
-  subtitle: "Projets pour client ou personnels développés lors de formation.",
-  projects: [
-    {
-      image: require("./assets/images/deviceoh.png"),
-      link: "https://yansyansyans.github.io/ProjetFood/"
-    },
-    {
-      image: require("./assets/images/deviceri.png"),
+      image: require("./assets/images/nebularts.png"),
       link: "https://yansyansyans.github.io/ProjetRingover/"
     },
     {
-      image: require("./assets/images/deviceya.png"),
-      link: "https://yansyansyans.github.io/ProjetYaProd/"
+      image: require("./assets/images/ringoverl.png"),
+      link: "https://nebularts-agency.com/"
     },
     {
-      image: require("./assets/images/devicegro.png"),
-      link: "https://github.com/YansYansYans/ProjetGroupomania"
-    }
+      image: require("./assets/images/lahsen.png"),
+      link: "https://www.conceptpeinture.com/"
+    },
   ]
 };
+
+
 
 // Your Achievement Section Include Your Certification Talks and More
 
@@ -201,7 +196,7 @@ const achievementSection = {
       subtitle: "En juin 2020 j'ai été diplomé de la formation certifiante OpenClassrooms Développeur Web Bac+2",
       image: require("./assets/images/open.png"),
       footerLink: [
-        { name: "Diplome", url: "" },
+        
         { name: "Qu'est-ce que c'est ?", url: "https://openclassrooms.com/fr/paths/185-developpeur-web?version=new&utm_expid=.8UMBYRLCTvuhc9bB2WKF2Q.1&utm_referrer=https%3A%2F%2Fopenclassrooms.com%2Ffr%2Fpaths" }
       ]
     },
@@ -275,4 +270,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, bigProjects2, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects,  achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

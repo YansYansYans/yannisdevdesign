@@ -1,5 +1,18 @@
 .startup-projects-main {
   display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.startup-projects-main img {
+  width: 300px;
+
+}
+
+.startup-projects-main img:hover {
+
+  opacity: 60%;
 }
 
 .startup-projects-main > * {
@@ -8,7 +21,7 @@
 }
 
 .starup-project-image > img {
-  max-width: 100%;
+  width: 270px;
   height: auto;
 }
 
@@ -20,10 +33,6 @@
   margin: 0px;
 }
 
-.startup-project-text {
-  display: flex;
-  justify-content: space-between;
-}
 
 .project-card-description {
   color: rgb(88, 96, 105);
@@ -40,5 +49,12 @@
   .project-subtitle{
     font-size: 16px;
     text-align: center;
+  }
+  .startup-projects-main {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .startup-projects-main img {
+    width: 200px;
   }
 }
