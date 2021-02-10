@@ -20,16 +20,16 @@ function Header() {
           <li>
             <a href="#skills">Profil</a>
           </li>
+          <li>
+            <a href="#competence">Compétences</a>
+          </li>
           { exp === true &&
             <li>
-              <a href="#experience">Experiences</a>
+              <a href="#experience">Expériences</a>
             </li>
           }
           <li>
             <a href="#projects">Projets</a>
-          </li>
-          <li>
-            <a href="#achievements">Diplomes</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

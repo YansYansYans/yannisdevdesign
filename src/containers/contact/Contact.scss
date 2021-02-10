@@ -92,6 +92,16 @@ $violet3: #3b4bb1;
                     border-radius: 15px;
                     font-size: 1.2em;
                 }
+                & input:focus {
+                    width: 100%;
+                    margin: 10px;
+                    padding: 20px;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 400;
+                    border: none;
+                    border-radius: 15px;
+                    font-size: 1.2em;
+                }
 
                 & textarea {
                     width: 100%;

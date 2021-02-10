@@ -108,6 +108,15 @@
     padding-top: 1rem;
     font-weight: 600;
   }
+  .experience-text-desc {
+    text-align: center;
+    color: #2c2c2c;
+  }
+  .experience-text-details {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    color: #2c2c2c;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -223,17 +232,15 @@
     padding-top: 1rem;
     font-weight: 600;
   }
-}
-
-.experience-text-desc {
-  text-align: center;
-  color: #f0f0f0;
-}
-
-.experience-text-details {
-  padding: 1.5rem;
-  margin-top: 2rem;
-  color: #f0f0f0;
+  .experience-text-desc {
+    text-align: center;
+    color: #f0f0f0;
+  }
+  .experience-text-details {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    color: #f0f0f0;
+  }
 }
 
 /* Media Query */

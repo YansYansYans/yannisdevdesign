@@ -135,6 +135,15 @@ button {
             color: $white;
         }
     }
+    .dialog {
+        background-color: $white;
+        color: $black2;
+    }
+    .dialog2 {
+        & p {
+            color: $black2;
+        }
+    }
 }
 @media (prefers-color-scheme: dark) {
     .com {
@@ -180,7 +189,7 @@ button {
                 font-family: 'Lato', sans-serif;
                 font-size: 1.2em;
                 font-weight: 800;
-                color: $black;
+                color: $grey1;
             }
         }
     }
@@ -189,6 +198,15 @@ button {
         background-color: $violet2;
         box-shadow: none;
 
+        & p {
+            color: $grey1;
+        }
+    }
+    .dialog {
+        background-color: $black;
+        color: $grey1;
+    }
+    .dialog2 {
         & p {
             color: $grey1;
         }

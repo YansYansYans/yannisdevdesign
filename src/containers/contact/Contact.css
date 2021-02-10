@@ -77,6 +77,16 @@
     border-radius: 15px;
     font-size: 1.2em;
   }
+  .contact-image-div form .inputBox input:focus {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+  }
   .contact-image-div form .inputBox textarea {
     width: 100%;
     margin: 10px;

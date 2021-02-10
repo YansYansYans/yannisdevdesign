@@ -125,6 +125,13 @@ button {
   .hero__arrow__block:hover p {
     color: #ffffff;
   }
+  .dialog {
+    background-color: #ffffff;
+    color: #2c2c2c;
+  }
+  .dialog2 p {
+    color: #2c2c2c;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -175,7 +182,7 @@ button {
     font-family: 'Lato', sans-serif;
     font-size: 1.2em;
     font-weight: 800;
-    color: #121212;
+    color: #f0f0f0;
   }
   .hero__arrow__block:hover {
     background-color: #5468e7;
@@ -183,6 +190,13 @@ button {
             box-shadow: none;
   }
   .hero__arrow__block:hover p {
+    color: #f0f0f0;
+  }
+  .dialog {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  .dialog2 p {
     color: #f0f0f0;
   }
 }

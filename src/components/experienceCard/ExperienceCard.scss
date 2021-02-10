@@ -118,6 +118,16 @@ $violet3: #3b4bb1;
         padding-top: 1rem;
         font-weight: 600;
     }
+    .experience-text-desc {
+        text-align: center;
+        color: $black2;
+    }
+    
+    .experience-text-details {
+        padding: 1.5rem;
+        margin-top: 2rem;
+        color: $black2;
+    }
 }
 @media (prefers-color-scheme: dark) {
     .experience-card {
@@ -225,17 +235,18 @@ $violet3: #3b4bb1;
         padding-top: 1rem;
         font-weight: 600;
     }
-}
-.experience-text-desc {
-    text-align: center;
-    color: $grey1;
+    .experience-text-desc {
+        text-align: center;
+        color: $grey1;
+    }
+    
+    .experience-text-details {
+        padding: 1.5rem;
+        margin-top: 2rem;
+        color: $grey1;
+    }
 }
 
-.experience-text-details {
-    padding: 1.5rem;
-    margin-top: 2rem;
-    color: $grey1;
-}
 
 /* Media Query */
 

@@ -68,7 +68,7 @@ export default function StackProgress() {
     if(techStack.viewSkillBars){
         return (
             <Fade bottom duration={1000} distance="20px">
-            <div className="skills-container">
+            <div id="competence" className="skills-container">
 
                 <div className="skills-bar">
                     <h1 className="skills-heading com">Et en <span>bref</span>, voila ce que je sais faire.</h1>
@@ -82,13 +82,13 @@ export default function StackProgress() {
                         </div>
                     </button>
                     <Dialog  open={open} TransitionComponent={Transition} keepMounted onClose={handleClose} aria-labelledby="alert-dialog-slide-title" aria-describedby="alert-dialog-slide-description">
-                        <DialogTitle id="alert-dialog-slide-title">{"Web Développement"}</DialogTitle>
-                        <DialogContent>
-                        <DialogContentText id="alert-dialog-slide-description">
-                            Développement et programation de Front end interactif et épuré. Utilisation de framework comme React.Js et de langage comme HTML, Javascript, PHP ou SQL JS / SQL.
+                        <DialogTitle className="dialog" id="alert-dialog-slide-title">{"Web Développement"}</DialogTitle>
+                        <DialogContent className="dialog">
+                        <DialogContentText className="dialog2"  id="alert-dialog-slide-description">
+                            <p>Développement et programation de Front end interactif et épuré. Utilisation de framework comme React.Js et de langage comme HTML, Javascript, PHP ou SQL JS / SQL.</p>
                         </DialogContentText>
                         </DialogContent>
-                        <DialogActions>
+                        <DialogActions className="dialog">
                         <Button onClick={handleClose} color="primary">
                             FERMER
                         </Button>
@@ -103,13 +103,13 @@ export default function StackProgress() {
                         </div>
                     </button>
                     <Dialog open={open2} TransitionComponent={Transition} keepMounted onClose={handleClose2} aria-labelledby="alert-dialog-slide-title" aria-describedby="alert-dialog-slide-description">
-                        <DialogTitle id="alert-dialog-slide-title">{"Web Design UI/UX"}</DialogTitle>
-                        <DialogContent>
-                        <DialogContentText id="alert-dialog-slide-description">
-                            Design et charte graphique à la fois réfléchie et cohérante avec au préalable une maquette sur Figma. Utilisation de SASS (scss, css).
+                        <DialogTitle className="dialog" id="alert-dialog-slide-title">{"Web Design UI/UX"}</DialogTitle>
+                        <DialogContent className="dialog">
+                        <DialogContentText className="dialog2" id="alert-dialog-slide-description">
+                        <p>Design et charte graphique à la fois réfléchie et cohérante avec au préalable une maquette sur Figma. Utilisation de SASS (scss, css).</p>
                         </DialogContentText>
                         </DialogContent>
-                        <DialogActions>
+                        <DialogActions className="dialog">
                         <Button onClick={handleClose2} color="primary">
                             FERMER
                         </Button>
@@ -124,13 +124,13 @@ export default function StackProgress() {
                         </div>
                     </button>
                     <Dialog open={open3} TransitionComponent={Transition} keepMounted onClose={handleClose3} aria-labelledby="alert-dialog-slide-title" aria-describedby="alert-dialog-slide-description">
-                        <DialogTitle id="alert-dialog-slide-title">{"Réferencement SEO"}</DialogTitle>
-                        <DialogContent>
-                        <DialogContentText id="alert-dialog-slide-description">
-                            Renforcement du SEO grace au référencement naturelle à l'aide de mots clés et du respect des critères (images etc). 
+                        <DialogTitle className="dialog" id="alert-dialog-slide-title">{"Réferencement SEO"}</DialogTitle>
+                        <DialogContent className="dialog">
+                        <DialogContentText className="dialog2" id="alert-dialog-slide-description">
+                        <p>Renforcement du SEO grace au référencement naturelle à l'aide de mots clés et du respect des critères (images etc).</p> 
                         </DialogContentText>
                         </DialogContent>
-                        <DialogActions>
+                        <DialogActions className="dialog">
                         <Button onClick={handleClose3} color="primary">
                             FERMER
                         </Button>
@@ -145,13 +145,13 @@ export default function StackProgress() {
                         </div>
                     </button>
                     <Dialog open={open4} TransitionComponent={Transition} keepMounted onClose={handleClose4} aria-labelledby="alert-dialog-slide-title" aria-describedby="alert-dialog-slide-description">
-                        <DialogTitle id="alert-dialog-slide-title">{"Communication"}</DialogTitle>
-                        <DialogContent>
-                        <DialogContentText id="alert-dialog-slide-description">
-                            Utilisation des réseaux sociaux et autres outils de communication dans sa strategie digitale. 
+                        <DialogTitle className="dialog" id="alert-dialog-slide-title">{"Communication"}</DialogTitle>
+                        <DialogContent className="dialog">
+                        <DialogContentText className="dialog2" id="alert-dialog-slide-description">
+                        <p>Utilisation des réseaux sociaux et autres outils de communication dans sa strategie digitale. </p>
                         </DialogContentText>
                         </DialogContent>
-                        <DialogActions>
+                        <DialogActions className="dialog">
                         <Button onClick={handleClose4} color="primary">
                             FERMER
                         </Button>

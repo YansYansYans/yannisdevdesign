@@ -23,7 +23,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="contact-image-div">
-                <form action="https://formspree.io/" method="POST">
+                <form action="https://formspree.io/f/mjvpzqwb" method="POST">
                     <div className="inputBox">
                     <input type="text" name="name" placeholder="Nom"/>
                     <input type="email" name="_replyto" placeholder="Email"/>
@@ -35,7 +35,7 @@ export default function Contact() {
                     <div className="inputBox">
                     <textarea className="textarea" type="text" name="message" rows="9" placeholder="Votre message..." />
                     </div>
-                    <input type="submit" class="send" value="Envoyer"/>
+                    <button type="submit" class="send">Envoyer</button>
                 </form>
                 </div>
             </div>
