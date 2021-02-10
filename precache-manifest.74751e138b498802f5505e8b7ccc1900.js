@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23a5efe085b8c742fc3d96268f3d4df0",
+    "revision": "dae0893bff400a35112767431c0e31ea",
     "url": "/yannisdevdesign/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yannisdevdesign/static/css/4.54df59d4.chunk.css"
   },
   {
-    "revision": "4a195cb28466243c034e",
-    "url": "/yannisdevdesign/static/css/main.2006b630.chunk.css"
+    "revision": "37d42ba1b4c0aa5370e3",
+    "url": "/yannisdevdesign/static/css/main.93ac2a1e.chunk.css"
   },
   {
     "revision": "38a90d31f281be3982da",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yannisdevdesign/static/js/4.47d1bccb.chunk.js"
   },
   {
-    "revision": "4a195cb28466243c034e",
-    "url": "/yannisdevdesign/static/js/main.806eac84.chunk.js"
+    "revision": "37d42ba1b4c0aa5370e3",
+    "url": "/yannisdevdesign/static/js/main.68a8a47b.chunk.js"
   },
   {
     "revision": "b9da70aa455ce877e583",
