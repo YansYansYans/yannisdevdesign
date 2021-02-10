@@ -8,7 +8,6 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Yannis Aitkhelifa",
-  subTitle: emoji("Développeur Full Stack auto-entrepreneur, je maitrise à la fois le design et la programmation web. Je vous propose mes services pour toute création de site web, vitrine, boutique, CMS etc. Je serais ravie de collaborer avec vous..."),
   resumeLink: "#"
 };
 
@@ -17,9 +16,8 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/YansYansYans",
-  linkedin: "https://www.linkedin.com/in/yannis-ait-khelifa-1648331ab/",
+  linkedin: "https://www.linkedin.com/in/yannis-aitkhelifa/",
   gmail: "yannis.aitkhelifa@gmail.com",
-  instagram: "https://www.instagram.com/_yans_yans/?hl=fr",
 };
 
 // Your Skills Section
@@ -62,10 +60,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "NodeJS",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
       skillName: "WordPress",
       fontAwesomeClassname: "fab fa-wordpress"
     },
@@ -73,19 +67,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Figma",
       fontAwesomeClassname: "fab fa-figma"
     },
-    {
-      skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap"
-    },
-    {
-      skillName: "Wix",
-      fontAwesomeClassname: "fab fa-wix"
-    },
-    {
-      skillName: "Shopify",
-      fontAwesomeClassname: "fab fa-shopify"
-    },
-
   ]
 };
 
@@ -116,9 +97,9 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Développeur Full Stack Freelance",  
+      role: "Développeur Web",  
       company: "Freelance",
-      companylogo: require("./assets/images/me.png"),
+      companylogo: require("./assets/images/logo1.png"),
       date: "Juillet 2020 - Aujourd'hui",
       desc: "Je me suis lancer en tant que développeur auto-entrepreneur et j'ai pu réaliser des projets pour des clients.",
       descBullets: [
@@ -127,11 +108,11 @@ const workExperiences = {
       ]
     },
     {
-      role: "Formateur Freelance",   
-      company: "Freelance",
-      companylogo: require("./assets/images/wix.jpg"),
+      role: "Formateur",   
+      company: "Passy Formation",
+      companylogo: require("./assets/images/unnamed.png"),
       date: "Novembre 2020",
-      desc: "Durant 1 semaine, j'ai pu former un client à la création d'une boutique en ligne Wix."
+      desc: "Formations données à des stagiaires dans le cadre de l’informatique (général, développement, site web) et de la communication digital (réseaux sociaux, référencement, blog)."
     },
     {
       role: "Web Designer",  
@@ -168,15 +149,15 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nebularts.png"),
-      link: "https://yansyansyans.github.io/ProjetRingover/"
-    },
-    {
-      image: require("./assets/images/ringoverl.png"),
       link: "https://nebularts-agency.com/"
     },
     {
-      image: require("./assets/images/lahsen.png"),
+      image: require("./assets/images/concept.png"),
       link: "https://www.conceptpeinture.com/"
+    },
+    {
+      image: require("./assets/images/familit.png"),
+      link: "http://www.gite-lafamilit.fr/"
     },
   ]
 };
@@ -258,7 +239,6 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Me contacter ☎️"),
-  subtitle: "Vous êtes intéréssé par mes services; vous voulez un site internet, contactez moi !",
   number: "0770453527",
   email_address: "yannis.aitkhelifa@gmail.com"
 };

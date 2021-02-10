@@ -1,0 +1,62 @@
+.startup-projects-main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .startup-projects-main img {
+    width: 300px;
+    transition: 300ms;
+  
+  }
+  
+  .startup-projects-main img:hover {
+  
+    opacity: 60%;
+  }
+  
+  .startup-projects-main > * {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .starup-project-image > img {
+    width: 270px;
+    height: auto;
+  }
+  
+  .project-card-head {
+    color: rgb(36, 41, 46);
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin: 0px;
+  }
+  
+  
+  .project-card-description {
+    color: rgb(88, 96, 105);
+  }
+  .saaya-health-div,
+  .nextu-div {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .starup-project-image {
+      display: none;
+    }
+    .project-subtitle{
+      font-size: 16px;
+      text-align: center;
+    }
+    .startup-projects-main {
+      margin-top: 40px;
+      text-align: center;
+    }
+    .startup-projects-main img {
+      width: 200px;
+    }
+  }
+  

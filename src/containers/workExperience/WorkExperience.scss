@@ -1,0 +1,81 @@
+$white: #ffffff;
+$grey: #f8f5f9;
+$grey1: #f0f0f0;
+$grey2: #b8b8b8;
+$grey3: #606060;
+$grey4: #adadad;
+$black: #121212;
+$black2:rgb(44, 44, 44);
+$blue: #232340;
+$blue2: #252733;
+$blue3: #d1ecfd;
+$yellow: #e99e2d;
+$yellow2: #b67b22;
+$violet1: #4550e8;
+$violet2: #5468e7;
+$violet3: #3b4bb1;
+
+.experience-cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1rem 1rem;
+}
+
+@media (prefers-color-scheme: light) {
+    .experience-heading {
+        font-size: 50px;
+        line-height: 60px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 800;
+        color: $grey4;
+
+        & span {
+            font-size: 1.5em;
+            color: $black2;
+            text-shadow: 7px 5px 11px rgba(118, 118, 118, 0.56);
+        }
+    }
+}
+@media (prefers-color-scheme: dark) {
+    .experience-heading {
+        font-size: 50px;
+        line-height: 60px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 800;
+        color: $grey1;
+
+        & span {
+            font-size: 1.5em;
+            color: $yellow2;
+      text-shadow: none;
+        }
+    }
+}
+.experience-container {
+    display: flex;
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+}
+
+.experience-container>* {
+    flex: 1;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+    .experience-heading {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');

@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
     <div className="footer-div">
-      <p className="footer-text">Tout droits réservés</p>
-      <p className="footer-text">2020 - By Yannis</p>
+      <p className="footer-text">© 2021 All Rights Reserved</p>
+      <p className="footer-text">By Yannis</p>
     </div>
     </Fade>
   );

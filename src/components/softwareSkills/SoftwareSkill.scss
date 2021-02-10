@@ -1,0 +1,81 @@
+$white: #ffffff;
+$grey: #f8f5f9;
+$grey1: #f0f0f0;
+$grey2: #b8b8b8;
+$grey3: #606060;
+$grey4: #adadad;
+$black: #121212;
+$black2:rgb(44, 44, 44);
+$blue: #232340;
+$blue2: #252733;
+$blue3: #d1ecfd;
+$yellow: #e99e2d;
+$yellow2: #b67b22;
+$violet1: #4550e8;
+$violet2: #5468e7;
+$violet3: #3b4bb1;
+
+.dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.software-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media (prefers-color-scheme: light) {
+    .software-skill-inline>i {
+        color: #868e96;
+    }
+
+    .software-skill-inline>i:hover {
+        color: #645beb;
+    }
+
+    .software-skill-inline>p {
+        color: #868e96;
+        font-size: 10px;
+    }
+
+    .software-skill-inline>i:hover~p {
+        color: #645beb;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    .software-skill-inline>i {
+        color: $grey1;
+    }
+
+    .software-skill-inline>i:hover {
+        color: $violet2;
+    }
+
+    .software-skill-inline>p {
+        color: $grey1;
+        font-size: 10px;
+    }
+
+    .software-skill-inline>i:hover~p {
+        color: $violet2;
+    }
+}
+
+@media (max-width: 1380px) {
+    .dev-icons {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .software-skill-inline {
+        margin-right: 0px;
+        margin: 10px;
+    }
+}

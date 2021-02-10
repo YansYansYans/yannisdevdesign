@@ -1,0 +1,154 @@
+$white: #ffffff;
+$grey: #f8f5f9;
+$grey1: #f0f0f0;
+$grey2: #b8b8b8;
+$grey3: #606060;
+$grey4: #adadad;
+$black: #121212;
+$black2:rgb(44, 44, 44);
+$blue: #232340;
+$blue2: #252733;
+$blue3: #d1ecfd;
+$yellow: #e99e2d;
+$yellow2: #b67b22;
+$violet1: #4550e8;
+$violet2: #5468e7;
+$violet3: #3b4bb1;
+
+.skills-main-div {
+    display: flex;
+}
+
+
+.skills-text-div {
+    margin-left: 50px;
+}
+
+.skills-main-div>* {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.skills-image-div {
+    & img {
+        max-width: 80%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .skills-text-subtitle {
+        color: $grey4;
+    }
+    .skills-text {
+        color: $grey4;
+    }
+    .skills-heading {
+        font-size: 50px;
+        line-height: 60px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 800;
+        color: $grey4;
+
+        & span {
+            font-size: 1.5em;
+            color: $black2;
+            text-shadow: 7px 5px 11px rgba(118, 118, 118, 0.56);
+        }
+    }
+}
+@media (prefers-color-scheme: dark) {
+    .skills-text-subtitle {
+        color: $grey1;
+    }
+    .skills-text {
+        color: $grey1;
+    }
+    .skills-heading {
+        font-size: 50px;
+        line-height: 60px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 800;
+        color: $grey1;
+
+        & span {
+            font-size: 1.5em;
+            color: $yellow2;
+      text-shadow: none;
+        }
+    }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .skills-text-div {
+        margin-left: 0px;
+    }
+
+    .skills-heading {
+        font-size: 40px;
+    }
+
+    .skills-main-div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skills-image-div {
+        order: 2;
+
+        & img {
+            max-width: 500px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .greeting-text-p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .skills-main-div {
+        flex-direction: column;
+    }
+
+    .skills-text-div {
+        margin-left: 0px;
+        margin: 20px;
+    }
+
+    .skills-text {
+        font-size: 16px;
+    }
+
+    .skills-text-subtitle {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .skills-image-div {
+        /* display: none; */
+        order: 2;
+
+        & img {
+            max-width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');

@@ -4,7 +4,7 @@
   font-size: 3rem;
   margin-bottom: 0px;
   margin-top: 0px;
-  text-align: center;
+  text-align: left;
 }
 
 .software-skill-inline {
@@ -13,17 +13,48 @@
   margin-bottom: 20px;
 }
 
-.software-skill-inline > i {
-  color: #868e96;
+@media (prefers-color-scheme: light) {
+  .software-skill-inline > i {
+    color: #868e96;
+  }
+  .software-skill-inline > i:hover {
+    color: #645beb;
+  }
+  .software-skill-inline > p {
+    color: #868e96;
+    font-size: 10px;
+  }
+  .software-skill-inline > i:hover ~ p {
+    color: #645beb;
+  }
 }
 
-.software-skill-inline > i:hover {
-  color: #645beb;
+@media (prefers-color-scheme: dark) {
+  .software-skill-inline > i {
+    color: #f0f0f0;
+  }
+  .software-skill-inline > i:hover {
+    color: #5468e7;
+  }
+  .software-skill-inline > p {
+    color: #f0f0f0;
+    font-size: 10px;
+  }
+  .software-skill-inline > i:hover ~ p {
+    color: #5468e7;
+  }
 }
-.software-skill-inline > p {
-  color: #868e96;
-  font-size: 10px;
+
+@media (max-width: 1380px) {
+  .dev-icons {
+    text-align: center;
+  }
 }
-.software-skill-inline > i:hover ~ p{
-  color: #645beb;
+
+@media (max-width: 768px) {
+  .software-skill-inline {
+    margin-right: 0px;
+    margin: 10px;
+  }
 }
+/*# sourceMappingURL=SoftwareSkill.css.map */

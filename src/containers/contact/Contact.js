@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="main contact-margin-top" id="contact">
             <div className="contact-div-main">
                 <div className="contact-header">
-                    <h1 className="heading contact-title">{contactInfo.title}</h1>
+                    <h1 className="heading contact-title">Une <span>question</span>, un <span>projet</span>, un <span>partenariat</span>? Contactez-moi !</h1>
                     <p className="subTitle contact-subtitle">{contactInfo.subtitle}</p>
 
                     <div className="contact-text-div">
@@ -23,7 +23,20 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="contact-image-div">
-                    <img alt="Saad Working" src={require("../../assets/images/contactMail.webp")}></img>
+                <form action="https://formspree.io/" method="POST">
+                    <div className="inputBox">
+                    <input type="text" name="name" placeholder="Nom"/>
+                    <input type="email" name="_replyto" placeholder="Email"/>
+                    </div>
+                    <div className="inputBox">
+                    <input type="tel" name="tel" placeholder="Téléphone"/>
+                    <input type="text" name="objet" placeholder="Objet"/>
+                    </div>
+                    <div className="inputBox">
+                    <textarea className="textarea" type="text" name="message" rows="9" placeholder="Votre message..." />
+                    </div>
+                    <input type="submit" class="send" value="Envoyer"/>
+                </form>
                 </div>
             </div>
         </div>

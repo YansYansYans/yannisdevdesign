@@ -1,5 +1,7 @@
 .main-button {
   font-weight: 700;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   padding-right: 5px;
   text-transform: uppercase;
@@ -9,17 +11,22 @@
   margin-top: 20px;
   font-size: 16px;
   cursor: pointer;
-
 }
 
-.project-button{
+.project-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 20px;
 }
-.project-button > .main-button{
+
+.project-button > .main-button {
   margin-right: 0 !important;
 }
+
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {
@@ -28,8 +35,10 @@
     margin-right: 0px;
   }
 }
+
 @media (max-width: 320px) {
   .main-button {
     font-size: 12px;
   }
 }
+/*# sourceMappingURL=Button.css.map */

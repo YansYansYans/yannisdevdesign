@@ -1,14 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+a {
+  text-decoration: none;
+}
+
 .main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 4rem;
 }
+
 .greet-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .gretting-main {
@@ -18,61 +24,264 @@
 }
 
 .greeting-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .greeting-main > * {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   margin-bottom: 30px;
 }
-.button-greeting-div {
-  display: flex;
-  margin-top: 20px;
+
+@media (prefers-color-scheme: light) {
+  .button-greeting-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
+  .button-greeting-div .btn-contact {
+    width: 250px;
+    display: block;
+    height: 65px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 20px;
+    font-family: 'Leto', sans-serif;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #2c2c2c;
+    border: 2px solid #2c2c2c;
+  }
+  .button-greeting-div .btn-contact:hover {
+    background-color: #2c2c2c;
+    color: #ffffff;
+  }
+  .greeting-text {
+    font-size: 70px;
+    line-height: 1.1;
+  }
+  .greeting-text-p {
+    font-size: 30px;
+    line-height: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: #adadad;
+  }
+  .greeting-text-p span {
+    font-size: 1.5em;
+    color: #2c2c2c;
+    text-shadow: 7px 5px 11px rgba(118, 118, 118, 0.56);
+  }
 }
 
-.greeting-text {
-  font-size: 70px;
-  line-height: 1.1;
+@media (prefers-color-scheme: dark) {
+  .button-greeting-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
+  .button-greeting-div .btn-contact {
+    width: 250px;
+    display: block;
+    height: 65px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 20px;
+    font-family: 'Leto', sans-serif;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+    cursor: pointer;
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    border: 2px solid #2c2c2c;
+  }
+  .button-greeting-div .btn-contact:hover {
+    opacity: 60%;
+  }
+  .greeting-text {
+    font-size: 70px;
+    line-height: 1.1;
+  }
+  .greeting-text-p {
+    font-size: 30px;
+    line-height: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: #f0f0f0;
+  }
+  .greeting-text-p span {
+    font-size: 1.5em;
+    color: #b67b22;
+    text-shadow: none;
+  }
 }
 
-.greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+.greeting-image-div {
+  display: block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
+.greeting-image-div .img-main {
+  max-width: 60%;
   height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-.wave-emoji {
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: wave;
-  display: inline-block;
-  transform-origin: 70% 70%;
+
+.greeting-image-div .img-second {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: wave2;
+          animation-name: wave2;
+  -webkit-transform-origin: 20% 20%;
+          transform-origin: 20% 20%;
+}
+
+.greeting-image-div .img-second2 {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: wave2;
+          animation-name: wave2;
+  -webkit-transform-origin: 80% 80%;
+          transform-origin: 80% 80%;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  20% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  30% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  40% {
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
 }
 
 @keyframes wave {
   0% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   10% {
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
   20% {
-    transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
   }
   30% {
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
   40% {
-    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
   }
   50% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   100% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes wave2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  20% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  40% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  60% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  80% {
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes wave2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  20% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  40% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  60% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  80% {
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 
@@ -84,21 +293,68 @@
   .greeting-text-p {
     font-size: 20px;
   }
+  .button-greeting-div .btn-contact {
+    width: 200px;
+    height: 55px;
+  }
+  .greet-main {
+    margin-top: 2.5rem;
+  }
 }
+
+@media (max-width: 1000px) {
+  .greet-main {
+    margin-top: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .button-greeting-div {
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .greeting-text {
     font-size: 30px;
     text-align: center;
   }
   .greeting-text-p {
-    font-size: 16px;
+    font-size: 25px !important;
     line-height: normal;
     text-align: center;
   }
   .greeting-main {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .wave-emoji {
+    width: 50px;
+    height: auto;
+  }
+  .greeting-main > * {
+    margin-bottom: 10px;
+  }
+  .greeting-image-div .img-main {
+    max-width: 75%;
+  }
+  .greeting-image-div .img-second {
+    width: 40%;
+    top: 100px;
+  }
+  .greeting-image-div .img-second2 {
+    display: none;
   }
 }
+
+@media (max-width: 500px) {
+  .greeting-text-p {
+    font-size: 20px !important;
+    line-height: normal;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=Greeting.css.map */

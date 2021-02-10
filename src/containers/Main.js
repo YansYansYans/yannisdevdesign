@@ -23,7 +23,7 @@ export default class Main extends Component {
         <WorkExperience />
         <Projects />
         <StartupProject />
-        <Achievement />
+        {/* <Achievement /> */}
         <Profile />
         <Footer />
         <Top />
